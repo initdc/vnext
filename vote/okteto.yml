@@ -1,6 +1,0 @@
-name: vote
-workdir: /root
-environment:
-command: [ "/usr/bin/v2ray", "-config", "/etc/v2ray/config.json" ]
-forward:
-  - 8080:8080
