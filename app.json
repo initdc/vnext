@@ -1,0 +1,20 @@
+{
+    "name": "vnext",
+    "description": "Deploying vnext to multiple platforms",
+    "env": {
+        "UUID": {
+            "description": "UUID",
+            "value": "4f2d6521-6a1a-4c42-8788-52687512165b"
+        },
+        "ALTER": {
+            "description": "alterId",
+            "value": 64
+        },
+        "TYPE": {
+            "description": "network type options: tcp | kcp | ws | http | domainsocket | quic",
+            "value": "tcp"
+        }
+    },
+    "repository": "https://github.com/initdc/vnext",
+    "stack": "container"
+}

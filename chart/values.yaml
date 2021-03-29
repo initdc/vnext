@@ -1,0 +1,11 @@
+image: okteto/vnext
+port: 8080
+nameOverride: ""
+fullnameOverride: "" 
+
+ingress:
+  enabled: true
+  annotations: {}
+  hosts:
+    - vnext.local
+  tls: []
