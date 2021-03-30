@@ -1,16 +1,11 @@
 #!/bin/sh
 
-#Genarate config.json
-PORT="${PORT:-8080}"
-UUID="${UUID:-4f2d6521-6a1a-4c42-8788-52687512165b}"
-ALTER="${ALTER:-64}"
-TYPE="${TYPE:-tcp}"
-
+#Genarate config.js
 cat << EOF > /etc/v2ray/config.json
 {
   "inbounds": [
     {
-      "port": ${PORT},
+      "port": "env:PORT",
       "protocol": "vmess",
       "settings": {
         "clients": [
