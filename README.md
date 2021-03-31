@@ -4,7 +4,7 @@
 
 ## ENV
 
-`PORT` Usually defined by the platform, the default value is `8080`
+`PORT` Usually defined by the platform, the default value is `80`
 
 `UUID` default value: `4f2d6521-6a1a-4c42-8788-52687512165b`
 

@@ -1,13 +1,9 @@
 name: vnext
 command: ["/bin/sh", "/root/config.sh"]
 sync:
-- .:/root
+  - .:/root
 forward:
-- 8080:8080
+  - 8080:8080
 resources:
-  limits:
-    cpu: 400m
-    memory: 128Mi
-  requests:
-    cpu: 100m
-    memory: 32Mi
+  cpu: 100m
+  memory: 32Mi

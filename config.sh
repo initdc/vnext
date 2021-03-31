@@ -1,7 +1,7 @@
 #!/bin/sh
 
 #Genarate config.js
-cat << EOF > /etc/v2ray/config.json
+cat << EOF > /root/config.json
 {
   "inbounds": [
     {
@@ -30,4 +30,4 @@ EOF
 
 echo "Genarate config.json done"
 
-/usr/bin/v2ray -config /etc/v2ray/config.json
+/usr/bin/v2ray -config /root/config.json

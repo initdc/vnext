@@ -9,10 +9,6 @@
         "ALTER": {
             "description": "alterId",
             "value": 64
-        },
-        "TYPE": {
-            "description": "network type options: tcp | kcp | ws | http | domainsocket | quic",
-            "value": "tcp"
         }
     },
     "repository": "https://github.com/initdc/vnext",
